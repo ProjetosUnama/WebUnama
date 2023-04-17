@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 // Página Sobre Nós
   app.get('/Sobre', (req, res) => {
-    res.sendFile(__dirname + '/pages/Sobre_Nós.html');
+    res.sendFile(__dirname + '/pages/sobreNos.html');
   });
   
 // Porta

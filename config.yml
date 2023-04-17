@@ -1,2 +1,8 @@
-# config.yml
+baseurl: "/projetosunama.github.io"
+exclude:
+  - README.md
+  - LICENSE
+  - config.yml
+  - node_modules
+  - package-lock.json
 source: pages
