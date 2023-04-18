@@ -7,10 +7,19 @@
  :root {
     --cor-de-fundo: #ffffff;
     --cor-pimaria: #000000;
-    --cor-secundaria: #34c771;
+    --cor-secundaria: #007700;
     --cor-hover: #4c3761;
     --cor--terciaria: #50c439;
     --cor-quartenaria: #58db9e;
+}
+
+a{
+    color: #007700;
+    border-radius: 5px;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 body {
@@ -20,12 +29,14 @@ body {
 .menu ul {
     list-style-type: none;
     padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-image: url(../images/Brasão\ da\ Unama.png);
     background-repeat: no-repeat;
     background-position: 197px -30px;
     background-size: 120px;
+    font-size: 14px;
 }
+
 
 ul {
     background-color: var(--cor-de-fundo);
@@ -69,7 +80,11 @@ ul {
 }
 
 .menu ul li a:hover {
-    background-color: var(--cor--terciaria);
+    transition: 1s;
+    background-color: #007700;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
 }
 
 .cp {
@@ -92,10 +107,11 @@ ul {
 }
 
 .home ul {
-    background-color: #34c771;
+    background-color: #007700;
     list-style-type: none;
     padding: 1%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 .home ul li {
@@ -115,19 +131,19 @@ p {
     padding: 1px;
 }
 
+h1 {
+    margin-left: 450px;
+    color: #ffffff;
+}
+
 h2 {
     color: #ffffff;
     text-align: justify;
 }
 
 .texto2 {
-    background-color: #34c771;
+    background-color: #007700;
     display: block;
-}
-
-h1 {
-    margin-left: 450px;
-    color: #ffffff;
 }
 
 .im1 {
@@ -174,19 +190,21 @@ h1 {
 }
 
 .botao2 {
-    background-color: #34c771;
     border: none;
     margin-left: 390px;
     padding: 20px;
     width: 500px;
     margin-top: 50px;
-    font-size: 20px;
-    color: #ffffff;
+    color: #000000;
+    background-color: #ffffff;
     font-size: 30px;
 }
 
 .botao2:hover {
-    background-color: #4c3761;
+    transition: 1s;
+    background-color: #007700;
+    color: aliceblue;
+    text-decoration: none;
 }
 
 .pc {
@@ -195,7 +213,7 @@ h1 {
     border: none;
     margin-top: 8px;
     width: 170px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin-left: 7px;
 }
@@ -203,6 +221,7 @@ h1 {
 .rod_foot {
     background-color: #110e14;
     padding: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .rodape .card a {
