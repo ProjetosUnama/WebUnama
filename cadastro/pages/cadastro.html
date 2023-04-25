@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="shortcut icon" href="../imagem/favicon3.ico" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <form class="frm" action="" autocomplete="on">
+        <fieldset class="feed">
+            <legend class="leng">Cadastro</legend>
+            <div class="dav">
+                <label class="usuario" for="Usuario">Usuário:</label>
+                <input class="codnome" type="text" name="usuario" placeholder="Digite aqui..." required>
+            </div>
+            <div class="dav">
+                <label class="email" for="email">E-mail:</label>
+                <input class="open" type="email" name="email" placeholder="Digite aqui..." autocomplete="email" required>
+            </div>
+            <div class="dav">
+                <label class="telefone" for="tel">telefone:</label>
+                <input class="nun" type="tel" name="tel" placeholder="Digite aqui..." autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+            </div>
+            <div class="dav">
+                <label class="senha" for="senha">Senha:</label>
+                <input class="pass" type="password" name="senha" placeholder="Digite aqui..." required>
+            </div>
+
+            <div class="dav">
+                <label class="senha" for="senha">Confime sua senha:</label>
+                <input class="pass" type="password" name="senha" placeholder="Digite aqui..." required>
+            </div>
+
+
+            <button class="bot">
+                    <a class="en" href="">Cadastrar</a>
+                </button>
+            <a class="logar" href="">Cadastrado?Entrar</a>
+        </fieldset>
+    </form>
+</body>
+
+</html>
