@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/binário.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.frm {
+  margin-left: 590px;
+  margin-top: 130px;
+  background-color: rgba(0, 0, 0, 0.685);
+  display: inline-block;
+}
+
+.feed {
+  padding: 10px;
+  margin: 10px;
+  width: 210px;
+}
+
+.dav {
+  padding: 10px;
+}
+
+.usuario {
+  color: #fff;
+}
+
+.email {
+  color: #fff;
+}
+
+.senha {
+  color: #fff;
+}
+
+.telefone {
+  color: #fff;
+}
+
+.leng {
+  color: #fff;
+  margin-left: 45px;
+  font-size: 30px;
+}
+
+.codnome {
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  border-radius: 2px;
+  border: none;
+}
+
+.open {
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  border-radius: 2px;
+  border: none;
+}
+
+.pass {
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  border-radius: 2px;
+  border: none;
+}
+
+.nun {
+    font-family: "Poppins", sans-serif;
+  padding: 2px;
+  border-radius: 2px;
+  border: 2px;
+}
+
+.bot {
+  border: none;
+  padding: 5px;
+  color: #000;
+  border: none;
+  font-family: serif;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: cornflowerblue;
+}
+
+.bot .en {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+
+.bot:hover {
+  background-color: rgb(22, 201, 22);
+  transition: background 0.9s;
+}
+
+.bot .en:hover {
+  color: #fff;
+  transition: color 0.9;
+}
+
+.logar {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 50px;
+}
+
+.logar:hover {
+  color: rgb(25, 235, 25);
+}
