@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/Computador3.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    max-width: 1000px;
+    max-height: 30vh;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    font-family: "Poppins", sans-serif;
+    background-color: #516cc4ce;
+    max-width: 650px;
+    min-width: 40px;
+    color: #ffff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-left: 120px;
+    font-weight: 600;
+    position: relative;
+}
+
+.email {
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+    max-width: 500px;
+    padding: 2px;
+    outline: none;
+    width: 250px;
+}
+
+.pass {
+    border: none;
+    border-radius: 2px;
+    max-width: 500px;
+    padding: 2px;
+    outline: none;
+    width: 250px;
+}
+
+.senha {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.botao {
+    margin-left: 70px;
+    margin-top: 10px;
+    list-style-type: none;
+    width: 60px;
+    border-radius: 2px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.botao a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.botao:hover {
+    background-color: rgb(31, 192, 31);
+    border: none;
+    cursor: pointer;
+}
+
+.botao a:hover {
+    color: #ffff;
+}
+
+.cadast {
+    margin-left: 30px;
+    border: none;
+    border-radius: 2px;
+    padding: 1px;
+}
+
+.cadast a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+}
+
+.cadast:hover {
+    background-color: rgb(31, 192, 31);
+    border: none;
+    color: #ffff;
+}
+
+.cadast a:hover {
+    color: #ffff;
+}
+
+.lin {
+    text-decoration: none;
+    list-style-type: none;
+    color: #ffff;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.lin:hover {
+    color: rgb(31, 192, 31);
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 35px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #0ab93f, #0fda52);
+}
